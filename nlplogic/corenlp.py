@@ -1,5 +1,6 @@
-import wikipedia 
+import wikipedia
 from textblob import TextBlob
+
 
 def search_wikipedia(name):
     """
@@ -9,6 +10,7 @@ def search_wikipedia(name):
     print(f"Search results for '{results}':")
     return results
 
+
 def summarize_wikipedia(name):
     """
     Summarize the Wikipedia page for the given name.
@@ -17,12 +19,14 @@ def summarize_wikipedia(name):
     print(f"Summary for '{summary}':")
     return summary
 
+
 def get_text_blob(text):
     """
     Get a TextBlob object for the given text.
     """
     blob = TextBlob(text)
     return blob
+
 
 def get_phrases(name):
     """

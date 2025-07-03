@@ -1,7 +1,8 @@
 pylint
 pytest
+pytest-cov
 black
 ipython
 wikipedia
 textblob
-fire
+fire==0.3.0
