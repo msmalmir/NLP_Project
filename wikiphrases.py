@@ -1,4 +1,4 @@
-#!usr/bin/env python
+#!/usr/bin/env python
 import fire
 from corenlp import get_phrases
 
