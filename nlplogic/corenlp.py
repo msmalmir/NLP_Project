@@ -6,7 +6,7 @@ def search_wikipedia(name):
     Search Wikipedia for the given name.
     """
     results = wikipedia.search(name)
-    print(f"Search results for '{name}':")
+    print(f"Search results for '{results}':")
     return results
 
 def summarize_wikipedia(name):
@@ -14,7 +14,7 @@ def summarize_wikipedia(name):
     Summarize the Wikipedia page for the given name.
     """
     summary = wikipedia.summary(name)
-    print(f"Summary for '{name}':")
+    print(f"Summary for '{summary}':")
     return summary
 
 def get_text_blob(text):
